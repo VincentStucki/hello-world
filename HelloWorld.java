@@ -1,7 +1,10 @@
 public class HelloWorld {
 
-
     String name;
+
+    public HelloWorld(String text) {
+        System.out.println(text);
+    }
 
     public String getName() {
         return name;
@@ -14,11 +17,11 @@ public class HelloWorld {
     public HelloWorld() {
 
     }
-<<<<<<< HEAD
+
     
 }
-=======
+
 	
     
 } 
->>>>>>> 1315a7e4ad9d45c43d827073853a7239f4cc4320
+
